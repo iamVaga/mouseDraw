@@ -24,7 +24,7 @@ canvas = np.zeros_like(frame)
 
 cv2.setMouseCallback('PaintCam', draw)
 
-print("Draw with mouse! Press 'c' to clear, 'q' to quit.")
+print("Press 'c' to clear, 'q' to quit.")
 
 while True:
     ret, frame = cap.read()
